@@ -1,10 +1,10 @@
 # MachineServerPanel
-This repository is about the control panel for multiply servers for deep learning experiments
-Nowadays, experiments about deep learning often needs to be runned on multiply servers and multiply GPUs, for example, hyper parameter searching.  It's a more common method to sovle it by using bash manually. However it have several drawbacks:
+This repository is about the control panel for multiple servers for deep learning experiments
+Nowadays, experiments about deep learning often needs to be runned on multiple servers and multiply GPUs, for example, hyper parameter searching.  It's a more common method to sovle it by using bash manually. However it have several drawbacks:
 
-- lack of one control panel, sometimes it's confused to run multiply bashs
+- lack of one control panel, sometimes it's confused to run multiple bashs
 - lack of managing the results of every experiments
-- lack of Visualizing the metrics together and managing them 
+- lack of visualizing the metrics together and managing them 
 
 As far as I know, there exits some tools like visdom(facebook) and jupyter. So can we build a client to server system, which is user friendly, and easy to manage experiments ?
 An idea is stated as above, any ideas and suggestions are weclomed!
