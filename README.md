@@ -11,6 +11,16 @@ An idea is stated as above, any ideas and suggestions are weclomed!
 
 I will first look into these tools to check if it can meet the requirements. (visdom, jupyer)
 
+After having a glance at jupyter notebook, I find it will be much eaiser to write an extension for jupyter notebook to meet my requirements. My reasons are as follows:
+- Jupyter can connect to remote kernel via ssh, which can naturally construct a client and server system, what we need to do is to write code for storing models and code, doing visualization.
+- Jupyter can also run on local mode, which means you can manage your projects via jupyter.
+- We can save a lot of work start from jupyter.
+
+# My working plan
+- Write a extension for Jupyter, to make it worked on local mode. I think this still need a long time. I will do a demo as quick as possible
+- Extend local mode to remote mode, making it work for client-server system.
+
+
 
 
 
