@@ -21,17 +21,5 @@ After having a glance at jupyter notebook, I find it will be much eaiser to writ
 - Extend local mode to remote mode, making it work for client-server system.
 
 
-
-
-
-# Chinese Version
-在深度学习跑实验的时候,通常使用多个服务器同时跑多个卡,比较粗暴的做法是人工在不同的bash下运行不同参数的实验。但是其缺点是:
-- 缺乏一个统一控制界面,多bash比较耗费精力
-- 每个模型的保存缺乏统一的管理
-- 需要可视化各种参数以及配置,增加日志功能等等
-
-所以我的想法是,能不能建立一个多client到server的控制体系,在server中发布任务(或者也是手动执行bash那样),有一个友好的界面,举例如visdom,jupyter。
-
-
-能否基于上面两个做一个验证呢？
-现在只是一个想法,如果大家见到类似的工具或者好的替代方法,也可以交流下,谢谢~
+# Related Projects
+[omniboard](https://github.com/vivekratnavel/omniboard)
